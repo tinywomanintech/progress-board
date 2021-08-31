@@ -1,0 +1,75 @@
+//start progress board
+
+.list-section {
+  .lists {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+
+    .list-wrapper {
+      background: #fff;
+      box-shadow: -1px 3px 22px 7px rgba(225, 214, 214, 0.56);
+      margin-bottom: 10px;
+      padding: 8px;
+      flex-basis: 20%;
+      min-width: 170px;
+      border-radius: 10px;
+    }
+  }
+}
+
+// end progress board
+
+// start kanban list
+.title-list {
+  text-align: center;
+  margin: 0;
+  padding: 8px 8px;
+}
+
+.title-0,
+.title-1,
+.title-2 {
+  background-color: #1a9dd8;
+  color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 8px 8px 8px 8px;
+  margin: 6px 10px;
+  background-color: #b5d8e8;
+  border-radius: 10px;
+}
+
+// end kanban list
+
+// start form
+
+.input-task {
+  margin: 3px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px;
+  border-radius: 2px;
+  color: #1a9dd8;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.update-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.update-button:hover {
+  background-color: #1a9dd8;
+  color: #fff;
+}
+// end form
